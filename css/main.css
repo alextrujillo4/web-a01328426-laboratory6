@@ -1,0 +1,52 @@
+body {
+    background-color: #FFDD02;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  h1 {
+    color: #0234FF;
+    margin-left: 20px;
+    font-size: 96px;
+    font-style: bold;
+}
+form{
+    padding-left: 24px;
+}
+
+label{
+    font-style: bold;
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+}
+
+  .list_item{
+    font-family: 'Rubik', sans-serif;
+
+    border: 2px solid #ccc;
+    background-color: #FFFFFF;
+    list-style-type: none;
+    padding: 24px;
+    margin-top: 12px;
+    margin-left:12px;
+    margin-bottom:12px;
+    margin-right: 32px;
+
+  }
+
+  .list_item > p {
+    font-family: 'Rubik', sans-serif;
+      color: #787878;
+      font-size: 24px;
+      font-style: italic;
+      margin:8px;
+      padding:0;
+  }
+
+  .list_item > button {
+   padding:8px;
+  }
+  
+
+  .item_checked{
+    text-decoration: line-through;
+  }
